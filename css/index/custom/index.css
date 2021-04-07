@@ -1,0 +1,305 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    overflow: hidden;
+}
+/* Landing Page */
+/* set the size  */
+.content {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+/* for landing page */
+.content--intro {
+	z-index: 1; 
+} 
+/* size of the bg of landing page */
+.content__inner {
+    width: 100%;
+	height: 100vh;
+	background-image: url(../../../images/index/bg.jpg);
+}  
+/* Navbar logo size and position */
+header .headerImage {
+    width: 110px;
+    margin-top: 3%; 
+} 
+/* for parallex hover size */
+.containerTwo { 
+    width: 100%;  
+    position: absolute;
+    cursor: default;
+}  
+/* I set a font name */
+@font-face {
+    font-family: "Besteam";
+    src: url("../../fonts/Besteam.ttf");
+    src: url("../../fonts/Besteam.ttf") format("ttf");
+}
+/* parallex hover item */
+.contentOne {
+    font-family: 'Besteam', Arial, sans-serif;
+    font-size:175px;  
+    margin-left: 10%;  
+    margin-top: -2%;
+    color: #000000;
+    /* -webkit-text-stroke: 2px #000000; */
+}
+/* parallex hover item */
+.contentTwo {
+    font-family: 'Besteam', Arial, sans-serif;
+    font-size:170px;  
+    margin-top: -10%;
+    margin-left: 8%;
+    color: #000000;
+    /* -webkit-text-stroke: 2px #000000; */
+}
+/* parallex hover item */
+.contentImageOne { 
+    width: 90px;
+    position: absolute;
+    margin-top: -22%;
+    margin-left: 48%;
+    transform: rotate(15deg);
+}
+/* parallex hover item */
+.contentImageTwo { 
+    width: 90px;
+    position: absolute;  
+    transform: rotate(-15deg); 
+    margin-bottom: 5%;
+    margin-left: -42%; 
+}
+/* parallex hover item */
+.contentImageThree {  
+    position: absolute;
+    width: 355px;
+    margin-left: -35%; 
+    margin-top: 6%;
+    transform: scaleX(-1);
+}  
+/* parallex hover item */
+.contentImageFour { 
+    position: absolute;
+    width: 355px; 
+    margin-left: 5%;
+    margin-top: 4%;
+}
+/* parallex hover item */
+.contentImageFive { 
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 0%;  
+}
+/* parallex hover item */
+.contentImageSix {  
+    position: absolute;
+    margin-top: 11%;
+    margin-left: -30%; 
+    transform: scaleX(-1) !important;    
+}
+/* parallex hover item */
+.contentImageSeven { 
+    width: 500px; 
+    position: absolute;  
+    margin-left: -45%;
+    margin-top: 3%; 
+}
+/* parallex hover item */
+.contentImageEight {  
+    width: 500px; 
+    position: absolute;
+    margin-left: 4%;  
+    margin-top: 3%;
+} 
+/* Button for the drinks (Come on! button) */
+.contentButtonDrinks {   
+    width: 120px; 
+    margin-left: 45% ;
+    margin-top: 29%; 
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s; 
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}   
+/* float up in effect */
+.contentButtonDrinks:hover { 
+    top: -20px;
+}
+/* footer part of landing page */ 
+/* social media's */
+.social-menu ul {  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-top: -3%;
+    margin-left: -32%;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fab {
+    color: white;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;   
+    margin-top: -4px;
+} 
+.social-menu ul li .fab:hover {
+    color: #000000;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    -webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+} 
+/* navigation buttons */
+footer .footerContent{ 
+    margin-top: -1%;
+    margin-left: 45%;
+    font-size: 25px;
+    font-weight: bold; 
+} 
+/* morphing shape effect set the size and color*/
+.shape {
+	height: 100vh;
+	width: 100%;
+	display: block;
+	fill: #659f14;
+}  
+/* Drinks Page */
+.content-drinkPage{
+	position: fixed;
+	top: 0;
+	left: 0;  
+	background-image: url(../../../images/index/bg.jpg);
+	background-size: cover;
+}    
+.btnDrinkstoHome {
+    background-color:#659f14; 
+    color: white;
+}
+.drinksContentHeader {
+    margin-top:4%;
+    margin-bottom: -3%;
+    cursor: default;
+}
+.drinksContentParagraph {
+    margin-top: 3%;
+}
+/* onePageFormTwo Caoursel Card Blur Effect When Not Active Center */ 
+.owl-carousel .owl-item { 
+    margin-top: -1%;
+    transform: scale(0.5);  
+    transition: all 1s ease;  
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+  } 
+/* onePageFormTwo Caoursel Card Animation Add Effect Active Center */ 
+.owl-carousel .owl-item.active.center img{  
+    transform: scale(1); 
+    transition: all 1s ease; 
+  }
+/* onePageFormTwo Caoursel Card Animation Remove Blur Effect Active Center  */ 
+.owl-carousel .owl-item.active.center { 
+    filter: blur(0px);  
+    -webkit-filter: blur(0px); 
+  }   
+/* onePageFormTwo Caoursel Card Animation Add Hover Effect  */  
+.owl-carousel .owl-item.active.center img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  } 
+/* Remove the dots for carousel */
+.owl-theme .owl-dots {
+    display: none;
+}
+/* drinks name */
+.drinksProdName {   
+    font-family: 'Besteam', Arial, sans-serif;
+    color: black;
+    margin-top: 4%;
+    text-align: center;
+    margin-left: -5%;
+} 
+/* go home bottun */
+.btnHome { 
+    position: absolute; 
+    margin: 1% !important;
+    cursor: pointer; 
+    font-size: 22px;
+    color: black;
+}  
+/* go home bottun fx */
+.circle {
+    position: absolute;  
+    background-color: #659f14; 
+    transform: scale(1); 
+    transition: all .5s ease; 
+}
+/* go home bottun fx */
+.circle:hover {
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+/* go home bottun fx */
+.btn-circle.btn-xl {
+    -webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    margin-top: -8%;
+    margin-left: -8%;
+    width: 200px;
+    height: 200px; 
+    font-size: 35px;
+    line-height: 1.33;
+    border-radius: 120px;
+    transform: scale(1); 
+    transition: all .5s ease; 
+}
+/* go home bottun fx */
+.btn-circle.btn-xl:hover {
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+/* go home bottun fx */
+.iconHome { 
+    position: absolute;   
+    margin-top: 10%;
+    margin-left: 10%;
+} 

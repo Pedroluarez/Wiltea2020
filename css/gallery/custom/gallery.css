@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: black;   
+}
+/* I set a font name */
+@font-face {
+    font-family: "Besteam";
+    src: url("../../fonts/Besteam.ttf");
+    src: url("../../fonts/Besteam.ttf") format("ttf");
+}
+header .headerImage {
+    width: 110px;
+    margin-top: 3%;
+}
+.fixed-top {
+    background-color: #659f14;  
+    padding: 13px;
+} 
+.navbar-expand-lg .navbar-collapse {
+    font-family: 'Besteam', Arial, sans-serif;
+    font-size: 22px; 
+} 
+.navbar-expand-lg .navbar-collapse .navbar-nav { 
+    margin-top: 1%; 
+} 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: black;
+}  
+.galleryHeaderText {
+    font-family: 'Besteam', Arial, sans-serif; 
+    margin-top: 12%;
+    margin-left: 35%;
+    text-align: center !important;
+    font-size: 150px;
+    color: white; 
+    position: fixed; 
+    cursor: default; 
+}
+.parallax { 
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(../../../images/gallery/header.png);
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3%; 
+}
+.galleryRowOne {
+    margin-bottom: 1%;
+}
+.galleryRowTwo {
+    margin-bottom: 1%;
+}
+.galleryRowThree {
+    margin-bottom: 1%;
+}
+/* Footer */ 
+.footer-top {
+    background-color: #659f14;
+}
+/* Footer Coloumn One */ 
+.segmentOneImg { 
+    width: 40%;
+    padding: 35px 0; 
+}
+/* Footer Coloumn Two */ 
+.segmentTwoTitle {
+    padding-top: 5%; 
+    font-size: 20px;
+    font-weight: bold;
+}
+.segmentTwoBranchOne {
+    font-size: 18px;
+    font-weight: bold;
+}
+.segmentTwoBranchOneAdrress {
+    padding-left: 5%;
+    font-size: 12px;
+    font-weight: 800;
+}
+.segmentTwoBranchTwo {
+    font-size: 18px;
+    font-weight: bold;
+}
+.segmentTwoBranchTwoAdrress {
+    padding-left: 5%;
+    font-size: 12px;
+    font-weight: 800;
+}
+/* Footer Coloumn Three */
+.segmentThreeTitle {
+    padding-top: 5%; 
+    font-size: 20px;
+    font-weight: bold;
+}
+.segmentThreeTitleSM .fa-3x{ 
+    color: black;
+}
+  

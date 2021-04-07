@@ -1,0 +1,6 @@
+inspiration for landing page : https://www.lyst.co.uk/fashion-dna/
+parallax hover : https://github.com/wagerfield/parallax
+page transition: https://tympanus.net/codrops/2017/08/08/morphing-page-transition/
+page transition(2) : https://codyhouse.co/gem/animated-page-transition
+creative Link Effects : https://tympanus.net/codrops/2013/08/06/creative-link-effects/
+hover effect : https://github.com/IanLunn/Hover
